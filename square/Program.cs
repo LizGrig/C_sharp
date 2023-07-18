@@ -6,9 +6,9 @@
 1. int <name> = 0;
    int.TryParse(Console.ReadLine(), out <name>>);
 
-2. <name> = int.Parse(Console.ReadLine());
+2. int <name> = int.Parse(Console.ReadLine());
 
-3. <name> = Convert.ToInt32(Console.ReadLine());
+3. int <name> = Convert.ToInt32(Console.ReadLine());
 */
 
 Console.Write("Введите число: ");
